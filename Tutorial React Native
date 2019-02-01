@@ -2,3 +2,7 @@ React Native
 =============================================================================================================
 1. tutorial persiapan  react native -> http://www.kodingindonesia.com/tutorial-react-native-bahasa-indonesia/4/
 ============================================================================================================
+2. mengatasi error unable to load script from assets index.android.bundle ->
+
+- react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+- react-native run-android //run react native android
